@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "regime-backtesting"
+version = "0.1.0"
+description = "Regime-aware backtesting framework with transaction costs and performance analytics"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+]
+
+[project.urls]
+Repository = "https://github.com/govid13427742/regime-backtesting"
+
+[tool.setuptools.packages.find]
+include = ["regime_backtesting*"]
