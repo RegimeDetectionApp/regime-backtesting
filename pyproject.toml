@@ -16,7 +16,8 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "Intended Audience :: Financial and Insurance Industry",
-]description = "Regime-aware backtesting framework with transaction costs and performance analytics"
+]
+description = "Regime-aware backtesting framework with transaction costs and performance analytics"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
